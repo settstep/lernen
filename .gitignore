@@ -55,3 +55,11 @@ dkms.conf
 .cproject
 .project
 .settings
+
+# Backup files
+*.bak
+
+# Doxygen
+html/*
+!html/*.chm
+/Debug/
